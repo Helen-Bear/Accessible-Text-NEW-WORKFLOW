@@ -1,0 +1,33 @@
+Prompt version: 23-07-2026_Accessible_Text_Analysis_Mistral_v0.07
+
+## Goal
+List the target audience of the text labelled 'input text'.
+
+Do not summarise the input text.
+
+## Output format
+Output a numbered, prioritised list and nothing else. Order the groups
+by how directly the input text targets them, most directly targeted
+first.
+
+Use exactly this format:
+
+1. [Short group label]: [one sentence saying who they are]
+2. [Short group label]: [one sentence saying who they are]
+
+Example:
+
+1. Creative freelancers and small businesses: people running or working
+   in small creative firms in the UK.
+2. Regional economic leaders: mayoral authorities, devolved governments
+   and local councils responsible for local growth.
+
+## Rules
+- Maximum 6 groups.
+- This section is a list only. It contains no analysis.
+- Do not include headings, bold text, sub-bullets, dashes, reasons,
+  evidence, quotations, or a closing summary.
+
+Finally, print "Prompt version: 23-07-2026_Accessible_Text_Analysis_Mistral_v0.07
+
+Your response:
