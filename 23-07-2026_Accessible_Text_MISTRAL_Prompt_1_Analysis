@@ -1,0 +1,624 @@
+Here is the complete first-stage analysis prompt, ready to use in the Mistral Large 3 chain.
+
+You are completing the analysis stage of a chained workflow for producing an Easy Read version of a source document.
+
+The output of this analysis will be passed into a later drafting prompt in the same workflow.
+
+Your task in this stage is to identify:
+
+1. who might need to read an Easy Read version of the document; and
+2. what the Easy Read version should help those people understand, decide or do.
+
+Do not draft the Easy Read version during this stage.
+
+Do not rewrite, simplify or summarise the whole document.
+
+Base your findings only on the supplied source text.
+
+The supplied text may be only part of a larger document. Treat conclusions as provisional when the available text does not provide enough evidence.
+
+Do not assume that there is one fixed target audience.
+
+Do not make assumptions about readers’ disabilities, reading ability, age, education, support needs, living situation or prior knowledge unless these are explicitly stated in the source text.
+
+Do not identify a group merely because it is a common audience for this type of document.
+
+Separate facts stated in the source from reasonable but provisional interpretations.
+
+When information cannot be established, say:
+
+“Not established from the supplied text.”
+
+## Part 1: Who might need to read this?
+
+Identify the groups of people who might need to read an Easy Read version of the document.
+
+Focus on people’s relationship to the document’s subject rather than their personal characteristics.
+
+Look for the following types of potential readers:
+
+* people directly affected by the subject;
+* people whose services, rights or responsibilities may be affected;
+* people whose money, benefits, payments or financial support may be affected;
+* people whose health, housing, education, employment or daily lives may be affected;
+* people who need to take an action;
+* people who need to make a choice or decision;
+* people who need to understand a proposal, change, finding or final decision;
+* people who currently use a service;
+* people who may use a service or process in the future;
+* people applying for something;
+* people waiting for a decision;
+* people who may need to complain, appeal or ask for help;
+* family members, carers, advocates, support workers or professionals helping someone else;
+* staff or organisations responsible for carrying out the document’s proposals or requirements;
+* people indirectly affected by the subject; and
+* people who may need the information in a particular situation.
+
+Identify no more than 6 distinct reader groups.
+
+Combine groups when:
+
+* their relationship to the information is substantially the same;
+* they need to understand the same information; and
+* they are expected to take the same action.
+
+Keep groups separate when they:
+
+* are affected in different ways;
+* need different information;
+* need to take different actions; or
+* face different consequences.
+
+For each potential reader group, provide the following information.
+
+### Reader group
+
+Give the group a clear and specific name.
+
+Avoid vague labels such as:
+
+* everyone;
+* the general public;
+* vulnerable people;
+* stakeholders; or
+* Easy Read users.
+
+Use neutral descriptions based on the group’s relationship to the subject.
+
+### Connection to the document
+
+Explain how this group is connected to the document’s subject.
+
+For example:
+
+* they currently use the service;
+* they may apply for the service;
+* a proposed change may affect them;
+* they must follow the process;
+* they may receive a decision;
+* they may need to support another person; or
+* they are responsible for implementing the changes.
+
+### Why they might need an Easy Read version
+
+Explain the practical reason this group may need the information.
+
+Focus on what they need to find out, understand, decide or do.
+
+Do not speculate about their reading ability or disability.
+
+### What they may need to understand
+
+List the most important information for this group.
+
+This may include:
+
+* whether the document applies to them;
+* what is happening;
+* what is changing;
+* what is staying the same;
+* why something is happening;
+* how a process works;
+* what choices are available;
+* what rules or conditions apply;
+* what their rights or responsibilities are;
+* what will happen next;
+* what the consequences may be;
+* when something will happen; or
+* where they can get help.
+
+### What they may need to do or decide
+
+State any action or decision connected to this reader group.
+
+Be specific where the source allows.
+
+For example:
+
+* complete an application;
+* provide information;
+* attend an appointment;
+* respond to a consultation;
+* choose between options;
+* give consent;
+* check whether they are eligible;
+* meet a deadline;
+* contact an organisation;
+* ask for help;
+* make a complaint; or
+* appeal a decision.
+
+When no action or decision is identified, write:
+
+“No action or decision has been identified for this group.”
+
+Do not invent an action.
+
+### Situation in which they might read it
+
+Describe the situation that may cause this group to look for the information.
+
+For example:
+
+* before applying for a service;
+* after receiving a decision;
+* when a service is changing;
+* before an appointment;
+* when considering their options;
+* when responding to a proposal;
+* when something has gone wrong;
+* when seeking support;
+* when making a complaint; or
+* when helping another person.
+
+When no clear situation can be established, write:
+
+“Reading situation not established from the supplied text.”
+
+### Supporting evidence
+
+Give concise evidence from the source.
+
+Use one or more of the following:
+
+* a short paraphrase;
+* a section heading;
+* a page number;
+* a named group in the document;
+* a stated action;
+* a stated effect or consequence; or
+* another clear source location.
+
+Do not provide long quotations.
+
+Do not claim that the source identifies a group when the group is only inferred.
+
+### Certainty
+
+Classify the identification of the reader group as one of the following:
+
+**Clear**
+
+The group is explicitly identified in the source, or the source directly states that the information applies to them.
+
+**Probable**
+
+The group is not directly named, but the source strongly indicates that they are affected or expected to act.
+
+**Uncertain**
+
+The group may be relevant, but the evidence in the supplied text is limited or indirect.
+
+Briefly explain the certainty classification.
+
+## Part 2: Overall view of the potential readership
+
+After analysing the individual reader groups, provide an overall view.
+
+### Primary potential readers
+
+Identify the group or groups that appear most likely to need the Easy Read version.
+
+Explain why they appear to be the primary readers.
+
+Do not select a primary group when the source does not provide enough evidence.
+
+In that case, write:
+
+“The primary potential readers cannot yet be established from the supplied text.”
+
+### Secondary potential readers
+
+Identify groups who may also find the Easy Read version useful but who appear less central to the document.
+
+Explain why they are secondary.
+
+### Differences between reader groups
+
+Identify any important differences in what the groups need to:
+
+* understand;
+* decide;
+* do;
+* know about timing;
+* know about consequences; or
+* know about support.
+
+State whether one Easy Read version is likely to serve all identified groups.
+
+When different groups have substantially different information needs, state that separate sections or separate versions may need to be considered during drafting.
+
+Do not make the final decision about separate versions. Only identify the potential need.
+
+### What remains unknown about the readers
+
+List important information about the potential readership that cannot be established from the supplied text.
+
+For example:
+
+* which group is the main audience;
+* whether the document is intended for current or future service users;
+* whether family members or support workers have a formal role;
+* whether different groups need different actions;
+* whether the information applies nationally or locally; or
+* whether the document is intended for the public or for professionals.
+
+## Part 3: Communication objective
+
+Identify the communication objective for the Easy Read version.
+
+The communication objective must explain what the Easy Read version should help potential readers understand, decide or do.
+
+The communication objective is not simply the subject or title of the source document.
+
+For example:
+
+“Community transport”
+
+is a topic, not a communication objective.
+
+A communication objective would be:
+
+“Help current and potential users understand what is changing, whether the changes apply to them, when the changes begin and what action they need to take.”
+
+Provide the following information.
+
+### Primary communication purpose
+
+Identify the main purpose of communicating the information.
+
+Choose the best-fitting primary purpose from the following list:
+
+* inform;
+* explain;
+* instruct;
+* announce;
+* warn;
+* consult;
+* request action;
+* support a decision;
+* explain rights;
+* explain responsibilities;
+* explain a process;
+* explain findings;
+* explain a proposal;
+* explain a change;
+* explain a final decision; or
+* provide access to help or support.
+
+Choose only one primary purpose.
+
+When none of the listed purposes is suitable, provide a more accurate description.
+
+Briefly explain why this is the primary purpose.
+
+### Secondary communication purposes
+
+Identify any additional purposes that are important but not primary.
+
+Do not list secondary purposes unless the source supports them.
+
+### Main message
+
+State the single most important message that the Easy Read version should communicate.
+
+Write the main message in 1 or 2 complete sentences.
+
+The main message should:
+
+* express the central meaning of the document;
+* be relevant to the potential readers;
+* make clear what is happening or what readers need to know;
+* distinguish a proposal from a final decision where relevant;
+* preserve important uncertainty; and
+* remain accurate when separated from the rest of the analysis.
+
+Do not include unnecessary background information.
+
+When the main message cannot be established from the supplied text, write:
+
+“The main message cannot yet be established from the supplied text.”
+
+### Intended reader outcome
+
+Complete the following statement:
+
+“After reading the Easy Read version, readers should be able to…”
+
+The outcome should describe something readers should be able to:
+
+* understand;
+* recognise;
+* find;
+* explain;
+* decide;
+* prepare for; or
+* do.
+
+Use a clear and observable outcome.
+
+Avoid vague outcomes such as:
+
+* be informed;
+* know more;
+* improve awareness; or
+* understand the document.
+
+State what readers should understand or be able to do.
+
+### Required reader action
+
+Identify whether readers are expected to take an action.
+
+When an action is required, state:
+
+* who needs to act;
+* what they need to do;
+* when they need to do it;
+* how they need to do it;
+* what information or documents they may need;
+* what happens after they act; and
+* what may happen if they do not act.
+
+Only include details supported by the source.
+
+When the source does not require an action, write:
+
+“No reader action has been identified. The communication objective is understanding.”
+
+When it is not clear whether action is required, write:
+
+“It is not clear from the supplied text whether readers need to take action.”
+
+### Reader decision
+
+Identify any decision the reader may need to make.
+
+This may include deciding:
+
+* whether the information applies to them;
+* whether to apply;
+* whether to use a service;
+* whether to accept an option;
+* whether to give consent;
+* whether to respond to a consultation;
+* whether to ask for help;
+* whether to complain or appeal; or
+* what to do next.
+
+When no reader decision is identified, write:
+
+“No reader decision has been identified.”
+
+Do not invent a decision.
+
+### Essential supporting information
+
+List the minimum information the Easy Read version must include for the main message and intended reader outcome to make sense.
+
+Consider whether readers need to know:
+
+* who the information applies to;
+* what is happening;
+* what is changing;
+* what is not changing;
+* why it is happening;
+* whether the information describes a proposal or a final decision;
+* when something will happen;
+* when readers need to act;
+* what process readers need to follow;
+* what conditions apply;
+* what exceptions apply;
+* what choices are available;
+* what consequences may follow;
+* what help is available;
+* who readers should contact;
+* how readers can complain or appeal; or
+* where readers can find more detailed information.
+
+Only include information that appears necessary for the communication objective.
+
+Do not produce a general list of all topics in the source.
+
+### Timing and urgency
+
+Identify:
+
+* important dates;
+* deadlines;
+* start dates;
+* end dates;
+* transition periods;
+* review dates;
+* events that trigger an action; and
+* whether the information appears urgent.
+
+Explain why each date or timing point matters to the reader.
+
+When no relevant timing information is present, write:
+
+“No relevant timing or deadline has been established from the supplied text.”
+
+### Help and support
+
+Identify any help readers may need in order to:
+
+* understand the information;
+* complete an action;
+* make a decision;
+* communicate their views;
+* apply for something;
+* complain or appeal; or
+* contact the responsible organisation.
+
+Identify any support routes explicitly mentioned in the source.
+
+Do not invent support services or contact details.
+
+### Most important misunderstandings to prevent
+
+Identify up to 3 serious misunderstandings that could result if the source is shortened or simplified badly.
+
+For each possible misunderstanding, state:
+
+1. the incorrect conclusion a reader might reach;
+2. why that misunderstanding would matter; and
+3. what information the Easy Read version must include to prevent it.
+
+Pay particular attention to possible confusion about:
+
+* who the information applies to;
+* whether something is compulsory or optional;
+* whether a proposal is final;
+* whether a reader is eligible;
+* whether action is required;
+* when action is required;
+* conditions and exceptions;
+* rights to help, complain or appeal;
+* what will change;
+* what will remain the same; and
+* the consequences of acting or not acting.
+
+Do not invent unlikely misunderstandings merely to complete the section.
+
+## Part 4: Proposed communication objective
+
+Using the analysis above, provide one proposed communication-objective statement.
+
+Use this structure:
+
+“The Easy Read version should help [potential reader group or groups] understand [main information], know [important conditions, timing or consequences], and [take an action or make a decision, when relevant].”
+
+The statement should:
+
+* be no more than 3 sentences;
+* identify the relevant potential readers where possible;
+* state what they need to understand;
+* state what they need to do or decide, where relevant;
+* preserve the distinction between proposals and final decisions;
+* avoid unsupported assumptions; and
+* be specific enough to guide the later drafting prompt.
+
+When the potential readers or communication objective cannot yet be established, provide a provisional statement and clearly label it:
+
+“Provisional communication objective.”
+
+## Part 5: Missing information to retrieve
+
+Identify information that is not available in the supplied text but may be necessary before drafting the Easy Read version.
+
+For each missing item, state:
+
+### Missing information
+
+Describe exactly what is not known.
+
+### Why it matters
+
+Explain how the missing information could affect:
+
+* the identification of potential readers;
+* the main message;
+* the communication objective;
+* the required reader action;
+* the accuracy of the Easy Read version; or
+* the decision about what information to include.
+
+### What to look for
+
+Suggest the section, heading, term or question that should be searched for in the rest of the source document.
+
+Examples include:
+
+* who this document applies to;
+* intended audience;
+* scope;
+* eligibility;
+* affected groups;
+* current service users;
+* implementation;
+* start date;
+* transitional arrangements;
+* consultation questions;
+* recommendations;
+* final decision;
+* required action;
+* application process;
+* exceptions;
+* complaints;
+* appeals;
+* contact details; or
+* support.
+
+Do not generate broad topic searches when a more specific search can be used.
+
+## Output format
+
+Use exactly these main headings:
+
+1. Potential reader groups
+2. Overall view of the potential readership
+3. Communication objective analysis
+4. Proposed communication objective
+5. Missing information to retrieve
+
+Use clear subheadings for each required field.
+
+Use concise paragraphs and bullet points where helpful.
+
+Do not return JSON.
+
+Do not use tables.
+
+Do not draft the Easy Read version.
+
+Do not rewrite the entire source.
+
+Do not provide a chapter-by-chapter summary.
+
+Do not provide hidden reasoning, private reasoning or a step-by-step account of your thought process.
+
+Provide only:
+
+* conclusions;
+* concise explanations;
+* classifications;
+* evidence from the source;
+* uncertainty labels; and
+* information needed by the later stages of the workflow.
+
+Keep factual findings separate from provisional interpretations.
+
+Do not add facts that are not present in the supplied text.
+
+SOURCE TEXT
+
+<<<SOURCE_TEXT_START>>>
+
+[Insert the extracted source text here.]
+
+<<<SOURCE_TEXT_END>>>
+
+This version is intentionally explicit because it should give Mistral Large 3 a stable, reusable analysis output without forcing premature audience assumptions.
+
+
