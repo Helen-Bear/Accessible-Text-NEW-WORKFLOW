@@ -1,0 +1,34 @@
+23-07-2026_Accessible_Text_Analysis_Mistral_v0.05
+
+
+## Goal
+List the groups of people addressed by the text labelled 'input text'.
+
+Do not summarise the input text.
+
+## Output format
+Output a numbered, prioritised list and nothing else. Order the groups
+by how directly the input text addresses them, most directly addressed
+first.
+
+Use exactly this format:
+
+1. [Short group label]: [one sentence saying who they are]
+2. [Short group label]: [one sentence saying who they are]
+
+Example:
+
+1. Creative freelancers and small businesses: people running or working
+   in small creative firms in the UK.
+2. Regional economic leaders: mayoral authorities, devolved governments
+   and local councils responsible for local growth.
+
+## Rules
+- Maximum 4 groups.
+- Only include groups the input text addresses. Do not speculate about
+  audiences the input text does not address.
+- This section is a list only. It contains no analysis.
+- Do not include headings, bold text, sub-bullets, reasons, evidence,
+  quotations, certainty ratings, or a closing summary.
+
+Your response:
