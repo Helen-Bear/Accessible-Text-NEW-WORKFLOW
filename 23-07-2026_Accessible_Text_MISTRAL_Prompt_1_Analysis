@@ -1,4 +1,5 @@
-Here is the complete first-stage analysis prompt, ready to use in the Mistral Large 3 chain.
+23-07-2026_Accessible_Text_MISTRAL_Prompt_1_Analysis
+First test, ChatGPT
 
 You are completing the analysis stage of a chained workflow for producing an Easy Read version of a source document.
 
@@ -13,9 +14,9 @@ Do not draft the Easy Read version during this stage.
 
 Do not rewrite, simplify or summarise the whole document.
 
-Base your findings only on the supplied source text.
+Base your findings only on the text labelled as 'input text'.
 
-The supplied text may be only part of a larger document. Treat conclusions as provisional when the available text does not provide enough evidence.
+The text labelled as 'input text' may be only part of a larger document. Treat conclusions as provisional when the available text does not provide enough evidence.
 
 Do not assume that there is one fixed target audience.
 
@@ -609,16 +610,7 @@ Provide only:
 
 Keep factual findings separate from provisional interpretations.
 
-Do not add facts that are not present in the supplied text.
+Do not add facts that are not present in the input text.
 
-SOURCE TEXT
-
-<<<SOURCE_TEXT_START>>>
-
-[Insert the extracted source text here.]
-
-<<<SOURCE_TEXT_END>>>
-
-This version is intentionally explicit because it should give Mistral Large 3 a stable, reusable analysis output without forcing premature audience assumptions.
 
 
